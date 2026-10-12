@@ -1,0 +1,14 @@
+name: mlc
+channels: [conda-forge, defaults]
+dependencies:
+  - python>=3.10
+  - jupyterlab
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pip
+  # optional extras (not needed for the dry run):
+  #   pip install anndata          (to read .h5ad files)
+  #   pip install decoupler==1.8.0 (to use the CollecTRI TF network in notebook 11)

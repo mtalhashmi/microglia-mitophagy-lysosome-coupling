@@ -1,0 +1,10 @@
+data/raw/
+data/processed/
+data/*.csv
+data/*.json
+data/profile.txt
+results/
+figures/
+.ipynb_checkpoints/
+__pycache__/
+outputs.json
